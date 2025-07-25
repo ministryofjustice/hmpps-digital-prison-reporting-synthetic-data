@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Prisoner",
+  "type": "object",
+  "required": ["id", "number", "firstname", "lastname", "living_unit_reference"],
+  "properties": {
+    "id": { "type": "integer"},
+    "number": { "type": "string"},
+    "firstname": { "type": "string"},
+    "lastname": { "type": "string"},
+    "living_unit_reference": { "type": "integer"}
+  },
+  "additionalProperties": false
+}

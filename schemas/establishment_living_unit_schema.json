@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EstablishmentLivingUnit",
+  "type": "object",
+  "required": ["id", "code", "establishment_id", "name"],
+  "properties": {
+    "id": { "type": "integer" },
+    "code": { "type": "string" },
+    "establishment": { "type": "string"},
+    "name": { "type": "string" }
+  },
+  "additionalProperties": false
+}

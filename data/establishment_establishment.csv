@@ -1,0 +1,226 @@
+establishment_id,name
+ACI,Altcourse
+ASI,Ashfield
+AGI,Askham Grange
+AYI,Aylesbury
+BFI,Bedford
+BAI,Belmarsh
+BWI,Berwyn
+BMI,Birmingham
+BSI,Brinsford
+BLI,Bristol
+BXI,Brixton
+BZI,Bronzefield
+BCI,Buckley Hall
+BNI,Bullingdon
+BRI,Bure
+CFI,Cardiff
+CWI,Channings Wood
+CDI,Chelmsford
+CLI,Coldingley
+CKI,Cookham Wood
+DAI,Dartmoor
+DTI,Deerbolt
+DNI,Doncaster
+DGI,Dovegate
+DWI,Downview
+DHI,Drake Hall
+DMI,Durham
+ESI,East Sutton Park
+EWI,Eastwood Park
+EYI,Elmley
+EEI,Erlestoke
+EXI,Exeter
+FSI,Featherstone
+FMI,Feltham
+FYI,Feltham A
+FWI,Five Wells
+FDI,Ford
+FBI,Forest Bank
+FEI,Fosse Way
+FHI,Foston Hall
+FKI,Frankland
+FNI,Full Sutton
+GHI,Garth
+GTI,Gartree
+GNI,Grendon
+GMI,Guys Marsh
+HDI,Hatfield
+HVI,Haverigg
+HEI,Hewell
+HOI,High Down
+HPI,Highpoint
+HII,Hindley
+HBI,Hollesley Bay
+HHI,Holme House
+HLI,Hull
+HMI,Humber
+HCI,Huntercombe
+ISI,Isis
+IWI,Isle of Wight
+KMI,Kirkham
+KVI,Kirklevington Grange
+LFI,Lancaster Farms
+LEI,Leeds
+LCI,Leicester
+LWI,Lewes
+LYI,Leyhill
+LII,Lincoln
+LHI,Lindholme
+LTI,Littlehey
+LPI,Liverpool
+LLI,Long Lartin
+LNI,Low Newton
+LGI,Lowdham Grange
+MSI,Maidstone
+MRI,Manchester
+MDI,Moorland
+MHI,Morton Hall
+NHI,New Hall
+NSI,North Sea Camp
+NLI,Northumberland
+NWI,Norwich
+NMI,Nottingham
+OWI,Oakwood
+ONI,Onley
+PRI,Parc
+PVI,Pentonville
+PFI,Peterborough (Female)
+PBI,Peterborough (Male)
+PDI,Portland
+UPI,Prescoed
+PNI,Preston
+RNI,Ranby
+RSI,Risley
+RCI,Rochester
+RHI,Rye Hill
+SDI,Send
+SPI,Spring Hill
+SFI,Stafford
+EHI,Standford Hill
+SKI,Stocken
+SHI,Stoke Heath
+STI,Styal
+SUI,Sudbury
+SLI,Swaleside
+SWI,Swansea
+SNI,Swinfen Hall
+TSI,Thameside
+MTI,The Mount
+VEI,The Verne
+TCI,Thorn Cross
+UKI,Usk
+WDI,Wakefield
+WWI,Wandsworth
+WII,Warren Hill
+WLI,Wayland
+WEI,Wealstun
+WNI,Werrington
+WYI,Wetherby
+WTI,Whatton
+WRI,Whitemoor
+WCI,Winchester
+WHI,Woodhill
+WSI,Wormwood Scrubs
+WMI,Wymott
+693103,Kingston & Richmond Probation Office
+696575,BOURNEMOUTH Probation Centre
+701109,Wallsend Probation Office
+703230,DORSET CLOSE Probation Office
+705109,Enfield Probation Office
+705670,Oxford City Probation Office
+706931,Plymouth Probation Centre
+714662,Sittingbourne Probation Office
+721844,NELSON Probation Office
+724559,Woolwich Probation Office
+724648,Sheerness Probation Office
+727642,NORTHAMPTONSHIRE OFFICES
+735096,Bexleyheath Probation Office
+739917,LINCOLN Probation Office
+754134,WESTON-SUPER-MARE Probation Centre
+754990,Littlehampton Probation Office
+761287,MAGISTRATES COURT
+770452,LEELAND HOUSE
+776185,High Wycombe Probation Office
+778998,West Bromwich Probation Office
+781940,Croydon Probation Office
+795760,DTTO NOTTINGHILL GATE
+796120,Erdington Probation Centre
+AAAAA1,AA Mike H Crown Court
+AAAMH1,AAAMH1 Court Mike H2 Test2
+AAAMH2,AAA Mike H Testing
+AAAMH3,AAAMH1 Court Mike H2 Test2 - Building tr
+AAAMH5,AAAMH1 Court Mike H2 Test2 - 22
+ABDALE,"Abbey Dale Court, London"
+ABDRCT,Aberdare County Court
+ABDRMC,Aberdare Mc
+ABDRYC,Aberdare Youth Court
+ABDSUM,Aberdeen Sheriff's Court (ABDSHF)
+ABGVMC,Abergavenny Magistrates Court
+ABRYCT,Aberystwyth County Court
+ABRYMC,Aberystwyth Magistrates Court
+ABRYYC,Aberystwyth Youth Court
+ABTYMC,Abertillery Mc
+ABWLEY,Abraham Cowley Unit
+ACCRCT,Accrington County Court
+ACCRMC,Accrington (Hyndburn) Magistrates Court
+ACCRYC,Accrington (Hyndburn) Youth Court
+ACTNCC,Acton Crown Court
+ACTNMC,Acton Mc
+ACTNYC,Acton Youth Court
+AKI,Acklington (HMP)
+ALDRCT,Aldershot and Farnham County Court
+ALDRMC,Aldershot (Nort East Hampshire) Magistrates
+ALI,Albany (HMP)
+ALLSHF,Alloa Sheriff's Court
+ALNWMC,Alnwick Mc
+ALNWYC,Alnwick Youth Court
+ALPHA,Alpha Hospital
+ALPHHO,Alpha Hospitals Sheffield
+ALTNMC,Alton Mc
+ALTNYC,Alton Youth Court
+ALTRCT,Altrincham County Court
+AMERCC,Amersham Crown Court
+AMERSH,Amersham General
+AMMNMC,Ammanford Mc
+AMMNYC,Ammanford Youth Court
+AMRSMC,Amersham Mc
+AMRSYC,Amersham Youth Court
+ANDVMC,Andover Mc
+ANDVYC,Andover Youth Court
+ANI,Aldington (HMP)
+ANTCC1,Antrim Crown Court
+ANTMC1,Antrim Magistrates Court
+ARDEN,Arden Leigh MSU
+ARNOLD,Arnold Lodge
+ASHEHO,Ashen Hill/Southview
+ASHFCT,Ashford County Court
+ASHFMC,Ashford Mc
+ASHTMC,Tameside (Ashton under Lyne) Magistrates
+ASHTYC,Tameside (Ashton under Lyne) Youth Court
+ASHWTH,Ashworth Hospital
+ASP001,North Somerset Courthouse Probation
+ASP002,Bath Probation Centre
+ASP003,"Knowle Park, Bristol Probation Centre"
+ASP004,Bristol Probation Centre
+ASP005,North Bristol Probation Centre
+ASP006,Weston-super-Mare Probation Centre
+ASP007,Bristol Probation Centre
+ASP008,Bristol Crown Court Liaison Office
+ASP009,Taunton Probation Centre
+ASP010,Wells Probation Centre
+ASP011,Yeovil Probation Centre
+ASP012,Bridgwater Probation Centre
+ASP013,Taunton Crown Court Liaison Unit
+ASP015,Bath Prolific Offender Unit
+ASP016,New Bridewell Prolific Offender Unit
+ASP017,Staple Hill Police St. Prolific Off Unit
+ASP019,Taunton Police Station Prolific Off Unit
+GLDFCC,Guildford Crown Court
+SNARCC,Snaresbrook Crown Court
+PLYMCC,Plymouth Crown Court
+TRURCC,Truro Crown Court
+EXETCC,Exeter Crown Court
+COACD,Court Of Appeal Criminal Division
+PLYMMC,Plymouth Magistrates Court
+HGHBMC,Highbury Corner Magistrates Court
