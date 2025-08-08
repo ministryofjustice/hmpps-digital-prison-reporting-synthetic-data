@@ -1,3 +1,4 @@
+from datetime import datetime, timezone
 import random
 from faker import Faker
 import pandas as pd
@@ -147,6 +148,26 @@ SPECIAL_LOCATIONS = {
 }
 
 
+def datetime_to_avro_timestamp_micros(dt: datetime) -> int:
+    """
+    Convert a datetime object to microseconds since the unix epoch (UTC).
+    The provided datetime must have a timezone.
+    This is required for columns with an avro logical timestamp type:
+
+    "type": {
+      "type": "long",
+      "logicalType": "timestamp-micros"
+    }
+
+    Note that Python does not have a separate long type and int is large enough to fit
+    the avro equivalent of a long.
+    """
+    if dt.tzinfo is None:
+        raise ValueError("datetime must have timezone attached")
+    epoch = datetime(1970, 1, 1, tzinfo=timezone.utc)
+    delta = dt - epoch
+    return delta.days * 86_400_000_000 + delta.seconds * 1_000_000 + delta.microseconds
+
 def generate_establishment_establishment_csv():
     path = DATA_DIR / "establishment_establishment.csv"
     data = [{"establishment_id": est_id, "name": name} for est_id, name in ESTABLISHMENTS.items()]
@@ -229,9 +250,9 @@ def generate_movement_movement_csv(prisoner_ids):
         num_movements = random.randint(1, 4)
         for i in range(1, num_movements + 1):
             movement_id = f"{prisoner_id}.{i}"
-            dt = fake.date_time_between(start_date="-10y", end_date="now")
-            date_str = dt.strftime("%Y-%m-%d 00:00:00")
-            time_str = dt.strftime("%Y-%m-%d %H:%M:%S")
+            dt = fake.date_time_between(start_date="-10y", end_date="now", tzinfo=timezone.utc)
+            date_micros = datetime_to_avro_timestamp_micros(dt.replace(hour=0, minute=0, second=0, microsecond=0))
+            time_micros = datetime_to_avro_timestamp_micros(dt)
             direction = random.choice(["IN", "OUT"])
             type_abbr = random.choice(movement_type_abbr)
 
@@ -259,8 +280,8 @@ def generate_movement_movement_csv(prisoner_ids):
             data.append({
                 "id": movement_id,
                 "prisoner": prisoner_id,
-                "date": date_str,
-                "time": time_str,
+                "date": date_micros,
+                "time": time_micros,
                 "direction": direction,
                 "type": type_abbr,
                 "origin_code": origin_code,

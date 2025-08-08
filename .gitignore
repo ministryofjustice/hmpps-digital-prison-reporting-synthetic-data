@@ -2,7 +2,10 @@
 .terraform/
 coverage/
 venv/
+.venv/
 env/
+.idea/
+*.iml
 .DS_STORE
 .vscode
 *.code-workspace
