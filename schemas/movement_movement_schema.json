@@ -7,8 +7,8 @@
   "properties": {
     "id": { "type": "string" },
     "prisoner": { "type": "integer" },
-    "date": { "type": "string", "format": "date-time"},
-    "time": { "type": "string", "format": "date-time"},
+    "date": { "type": "integer", "x-avro-logicalType": "timestamp-micros"},
+    "time": { "type": "integer", "x-avro-logicalType": "timestamp-micros"},
     "direction": { "type": "string"},
     "type": { "type": "string"},
     "origin_code": { "type": "string"},
